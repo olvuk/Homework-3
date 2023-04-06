@@ -121,7 +121,8 @@ public class Main {
         float weightLostPerDayInKilograms1 = weightLostPerDayInGrams1 / 1000F;
         short weightLostPerDayInGrams2 = 500;
         float weightLostPerDayInKilograms2 = weightLostPerDayInGrams2 / 1000F;
-        int averageWeightLostPerDayInGrams = weightLostPerDayInGrams1 + weightLostPerDayInGrams2;
+        int SumWeightLostPerDayInGrams = weightLostPerDayInGrams1 + weightLostPerDayInGrams2;
+        int averageWeightLostPerDayInGrams = SumWeightLostPerDayInGrams / 2;
         float averageWeightLostPerDayInKilograms = averageWeightLostPerDayInGrams / 1000F;
         float daysNeededToLoseWeight1 = kilosNeededToLose / weightLostPerDayInKilograms1;
         float daysNeededToLoseWeight2 = kilosNeededToLose / weightLostPerDayInKilograms2;
